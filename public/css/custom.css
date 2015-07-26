@@ -1,0 +1,96 @@
+
+body {
+    padding-top: 10px
+}
+
+.me {
+    margin-bottom: 10px;
+    margin-top: 15px
+}
+
+.me .name {
+    margin-top: 30px;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 22px
+}
+
+.me .position {
+    font-size: 1.5em
+}
+
+#contact {
+    padding-bottom: 30px
+}
+
+#skills,#lang,#availability {
+    padding-bottom: 30px
+}
+
+#address {
+    padding-bottom: 5px;
+    padding-top: 20px
+}
+
+.job {
+    padding-bottom: 17px;
+    padding-top: 10px
+}
+
+.job-desc {
+    font-size: 15px;
+    padding-top: 1px
+}
+
+#skills {
+    font-size: 14px
+}
+
+.skill-list {
+    font-size: 14px;
+    padding-bottom: 15px
+}
+
+#lang,#license p {
+    font-size: 14px
+}
+
+.edu {
+    padding-bottom: 12px
+}
+
+#availability p {
+    font-size: 14px
+}
+
+.tools span.label {
+    line-height: 3
+}
+
+.cat {
+    padding-bottom: 9px;
+    margin: 25px 0 10px;
+    border-bottom: 1px solid #eee
+}
+
+.about-me {
+    padding-bottom: 0
+}
+
+.cat-side {
+    padding-bottom: 9px;
+    margin: 5px 0 20px;
+    border-bottom: 1px solid #eee
+}
+
+.first-cat {
+    padding-bottom: 9px;
+    margin: 22px 0 20px;
+    border-bottom: 1px solid #eee
+}
+
+#footer {
+    margin: 40px 0 20px;
+    vertical-align: text-bottom
+}
+
