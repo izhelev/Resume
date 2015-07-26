@@ -15,7 +15,7 @@ body {
     line-height: 22px
 }
 
-.me .position {
+.me .title {
     font-size: 1.5em
 }
 
@@ -94,3 +94,76 @@ body {
     vertical-align: text-bottom
 }
 
+@media(min-width:769px) {
+    body {
+    padding-top: 20px;
+    }
+    .name {
+        font-size: 2.3em;
+        font-weight: 700;
+        line-height: 16px;
+    }
+    .title {
+        font-size: 1em;
+    }
+}
+
+
+@media print {
+
+    body {
+    width: 1080!important;*/
+    margin-top: 0!important;
+    }
+    div[class|=col-] {
+        float: left!important;
+    }
+    .col-md-3 {
+        width: 33%!important;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .col-md-9 {
+        width: 66%!important;
+        display: inline-block;
+    }
+    .col-md-4 {
+        width: 50%}
+    .col-md-8 {
+        width: 50%}
+
+    .me {
+        margin-bottom: 10px!important;
+        margin-top: 15px!important;
+    }
+    .me .name {
+        margin-top: 28px!important;
+        font-size: 2.2em!important;
+        font-weight: 700!important;
+        line-height: 16px!important;
+    }
+    .me .title {
+        font-size: 1.1em!important;
+    }
+
+    small {
+        font-size: 80%;
+    }
+
+    .text-muted > small, .text-muted{
+         color: #777 !important;
+    }
+
+    u {
+        text-decoration: none;
+    }  
+    #footer {
+        margin-top: 100px;
+    }
+    .no-print {
+        display: none;
+    }
+    .pull-right {
+        float: right;
+    }
+}
