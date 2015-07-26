@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap": "3.3.5",
+    "html-pdf": "^1.2.1",
     "html5shiv": "3.7.3"
   },
   "devDependencies": {},
